@@ -1,5 +1,10 @@
+import CardBase.Card;
+import CardBase.Rank;
+import CardBase.Suit;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Card card = new Card(Rank.ACE, Suit.CLUBS);
+        System.out.println(card.getName());
     }
 }
